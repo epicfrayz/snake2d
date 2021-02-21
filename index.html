@@ -1,15 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style/main.css">
-    <title>Snake 2d</title>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="style/main.css">
+	<title>Snake 2d</title>
 </head>
 <body>
-    
-
-    <script src="scripts/main.js"></script>
+	<div id="game">
+		<div class="game-header">
+			<div class="game-score">
+				<span class="score-count">1234</span>
+			</div>
+			<button class="btn-refresh"></button>
+		</div>
+		<div class="canvas-wrapper">
+			<canvas id="game-canvas"></canvas>
+		</div>
+	</div>
+	<script src="scripts/main.js"></script>
 </body>
 </html>
